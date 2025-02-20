@@ -1,11 +1,11 @@
 const Navbar = () => {
     return (
-        <div>
+        <div className="flex">
             <div>
                 <img src="" alt="" />
             </div>
             <div>
-                <ul>
+                <ul className="flex">
                     <li>Home</li>
                     <li>About</li>
                     <li>Contact</li>

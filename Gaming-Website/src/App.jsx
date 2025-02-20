@@ -1,8 +1,15 @@
 import Navbar from "../components/Navbar"
+import ListGroup from "../components/ListGroup"
 
 
-export const App = () => {
+const App = () => {
   return (
-    <Navbar />
+    <>
+      <ListGroup />
+      <Navbar />
+    </>
+  
   )
 }
+
+export default App
